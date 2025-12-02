@@ -1,6 +1,6 @@
 #!/bin/bash
 
-shopt -s expand_aliases # włącza aliasy
+shopt -s expand_aliases # enable aliases
 alias DATARUN1='date'
 
 DATARUN2=`date`

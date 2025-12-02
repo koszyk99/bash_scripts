@@ -2,11 +2,11 @@
 
 # Wielkość liter w zmiennych nie ma znaczenia 
 
-raport_creator="Krzysztof Koszyk"
+raport_creator="User"
 raport_name="Wydajność systemu"
 
 DATABASENAME="raporty"
-DATABASEUSER="kkoszyk"
+DATABASEUSER="uuser"
 DATABASEPASS="pasword123"
 STARTBASH=`date`
 
