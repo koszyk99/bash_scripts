@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "============================="
+echo "  Skrypt ze zmiennymi env    "
+echo "============================="
+echo ""
+echo "Jesteś zalogowany jako $USER"
+echo ""
+echo "Twoja lokalizacja to: $PWD"
+echo ""
+echo "Twój domowy katalog to: $HOME"
+echo ""
+echo "Twoja zmienna PATH wygląda: $PATH"
+echo ""
+echo "============================="

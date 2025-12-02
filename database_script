@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Wielkość liter w zmiennych nie ma znaczenia 
+
+raport_creator="Krzysztof Koszyk"
+raport_name="Wydajność systemu"
+
+DATABASENAME="raporty"
+DATABASEUSER="kkoszyk"
+DATABASEPASS="pasword123"
+STARTBASH=`date`
+
+echo "*************************************"
+echo "Raport tytuł: $raport_name - utworzony $STARTBASH"
+echo "Wygenerował raport: $raport_creator"
+echo "Raport został zapisany $PWD"
+echo ""
+echo "Raport zostanie zapisany do $DATABASENAME"
+echo "Logowanie użytkownika $DATABASEUSER"
+
+
+ENDBASH=`date`
+echo "Operacja zakończona: $ENDBASH"
+echo "*************************************"
